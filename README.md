@@ -1,6 +1,12 @@
 # MakeFlatt
 > Simple library to make your dictionary flatten in Python
 
+[![PyPI version](https://badge.fury.io/py/makeflatt.svg)](https://badge.fury.io/py/makeflatt)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/makeflatt)
+[![Python package](https://github.com/jaswdr/makeflatt/actions/workflows/python-package.yml/badge.svg?branch=master)](https://github.com/jaswdr/makeflatt/actions/workflows/python-package.yml)
+![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+
 ### Installation
 
 ```bash
