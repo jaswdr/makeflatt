@@ -1,0 +1,96 @@
+{
+    "input": {
+        "string": "this is a string",
+        "number": "this is a number",
+        "array": [
+            "this",
+            "is",
+            "an",
+            "array"
+        ],
+        "boolean": true,
+        "null": null,
+        "nested": {
+            "string": "this is a string",
+            "number": "this is a number",
+            "array": [
+                "this",
+                "is",
+                "an",
+                "array"
+            ],
+            "boolean": true,
+            "null": null,
+            "nested_2": {
+                "string": "this is a string",
+                "number": "this is a number",
+                "array": [
+                    "this",
+                    "is",
+                    "an",
+                    "array"
+                ],
+                "boolean": true,
+                "null": null
+            }
+        }
+    },
+    "apply": {
+        "string": "this is a string",
+        "number": "this is a number",
+        "array": [
+            "this",
+            "is",
+            "an",
+            "array"
+        ],
+        "boolean": true,
+        "null": null,
+        "nested.string": "this is a string",
+        "nested.number": "this is a number",
+        "nested.array": [
+            "this",
+            "is",
+            "an",
+            "array"
+        ],
+        "nested.boolean": true,
+        "nested.null": null,
+        "nested.nested_2.string": "this is a string",
+        "nested.nested_2.number": "this is a number",
+        "nested.nested_2.array": [
+            "this",
+            "is",
+            "an",
+            "array"
+        ],
+        "nested.nested_2.boolean": true,
+        "nested.nested_2.null": null
+    },
+    "deep_apply": {
+        "string": "this is a string",
+        "number": "this is a number",
+        "array.0": "this",
+        "array.1": "is",
+        "array.2": "an",
+        "array.3": "array",
+        "boolean": true,
+        "null": null,
+        "nested.string": "this is a string",
+        "nested.number": "this is a number",
+        "nested.array.0": "this",
+        "nested.array.1": "is",
+        "nested.array.2": "an",
+        "nested.array.3": "array",
+        "nested.boolean": true,
+        "nested.null": null,
+        "nested.nested_2.string": "this is a string",
+        "nested.nested_2.number": "this is a number",
+        "nested.nested_2.array.0": "this",
+        "nested.nested_2.array.1": "is",
+        "nested.nested_2.array.2": "an",
+        "nested.nested_2.array.3": "array",
+        "nested.nested_2.boolean": true,
+        "nested.nested_2.null": null
+    }
+}
