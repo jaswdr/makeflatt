@@ -49,7 +49,7 @@ You can also change the separator and define your own:
 
 ### License
 
-Makeflatt is released under the MIT Licence. See the bundled LICENSE file for details.
+MakeFlatt is released under the MIT Licence. See the bundled LICENSE file for details.
 
 ### Development
 
