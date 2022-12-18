@@ -5,6 +5,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/makeflatt)
 [![Unit Tests](https://github.com/jaswdr/makeflatt/actions/workflows/unit-tests.yml/badge.svg?branch=master)](https://github.com/jaswdr/makeflatt/actions/workflows/unit-tests.yml)
 ![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)
+![PyPI - License](https://img.shields.io/pypi/l/makeflatt)
 
 
 ### Installation
