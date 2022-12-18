@@ -12,7 +12,7 @@ class TestFlattMaker(TestCase):
         self.fm = FlattMaker()
 
     def test_version(self):
-        self.assertEqual(__version__, "1.0.2")
+        self.assertEqual(__version__, "1.0.3")
 
     def test_noop(self):
         expected = {"a": 1, "b": 2, "c": 3}
