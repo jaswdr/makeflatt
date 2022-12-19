@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "makeflatt"
-version = "1.0.3"
+version = "1.0.4"
 description = "Simple library to make your dictionary flatten"
 authors = ["Jonathan Schweder <jonathanschweder@gmail.com>"]
 license = "MIT"
