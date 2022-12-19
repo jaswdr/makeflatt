@@ -25,18 +25,18 @@ Quick start:
 {'a.b.c': 'test'}
 ```
 
-Make nested structured flatten without expanding lists:
+Make nested structured flatten:
 
 ```python
 >>> mf.apply({"a": {"b": ["b1", "b2", "b3"]}})
-{'a.b': ['b1', 'b2', 'b3']}
+{'a.b.0': 'b1', 'a.b.1': 'b2', 'a.b.2': 'b3'}
 ```
 
-Or use `deep_apply` to also expand lists:
+If you don't wan't to expand nested lists you can set `include_lists` to `False`:
 
 ```python
->>> mf.deep_apply({"a": {"b": ["b1", "b2", "b3"]}})
-{'a.b.0': 'b1', 'a.b.1': 'b2', 'a.b.2': 'b3'}
+>>> mf.apply({"a": {"b": ["b1", "b2", "b3"]}}, include_lists=False)
+{'a.b': ['b1', 'b2', 'b3']}
 ```
 
 You can also change the separator and define your own:
@@ -44,7 +44,7 @@ You can also change the separator and define your own:
 ```python
 >>> mf = FlattMaker(sep=":")
 >>> mf.apply({"a": {"b": ["b1", "b2", "b3"]}})
-{'a:b': ['b1', 'b2', 'b3']}
+{'a:b:0': 'b1', 'a:b:1': 'b2', 'a:b:2': 'b3'}
 ```
 
 ### License

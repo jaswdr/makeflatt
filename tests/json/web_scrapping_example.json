@@ -105,7 +105,7 @@
         "state": "PUBLISHED",
         "premierPartner": false
     },
-    "apply": {
+    "apply_with_lists": {
         "id": 1,
         "title": "title",
         "seoTitle": "seoTitle",
@@ -203,7 +203,7 @@
         "state": "PUBLISHED",
         "premierPartner": false
     },
-    "deep_apply": {
+    "apply": {
         "id": 1,
         "title": "title",
         "seoTitle": "seoTitle",

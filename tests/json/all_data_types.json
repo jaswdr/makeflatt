@@ -35,7 +35,7 @@
             }
         }
     },
-    "apply": {
+    "apply_with_lists": {
         "string": "this is a string",
         "number": "this is a number",
         "array": [
@@ -67,7 +67,7 @@
         "nested.nested_2.boolean": true,
         "nested.nested_2.null": null
     },
-    "deep_apply": {
+    "apply": {
         "string": "this is a string",
         "number": "this is a number",
         "array.0": "this",
